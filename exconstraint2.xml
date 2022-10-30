@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="355dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#E69A9595"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="405dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#BCC61313"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="461dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="414dp"
+        android:layout_height="52dp"
+        android:background="#E3CDAD"
+        android:backgroundTint="#D8B685"
+        android:text="item: black T-shirt                         Quantity:1"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="508dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="407dp"
+        android:layout_height="54dp"
+        android:background="#BA8798"
+        android:backgroundTint="#D8B685"
+        android:text="Price:17.75$"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="562dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="416dp"
+        android:layout_height="45dp"
+        android:background="#825FC1"
+        android:text="E-commerseApp"
+        android:textColor="#FDFFFFFF"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_constraintGuide_begin="656dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="419dp"
+        android:layout_height="406dp"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17.75 dollar"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:layout_constraintVertical_bias="0.798"
+        tools:layout_editor_absoluteX="323dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="83dp"
+        android:layout_height="49dp"
+        android:text="In Store Color : black"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="416dp"
+        android:layout_height="70dp"
+        android:background="#673AB7"
+        android:text="ADD TO CART"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
